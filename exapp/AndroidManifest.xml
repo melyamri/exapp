@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mvm.exapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/exapp_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+      
+       
+        <activity
+            android:name="com.mvm.exapp.activities.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mvm.exapp.activities.MainActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity 
+            android:name="com.mvm.exapp.activities.AddEditActivity"
+            android:label="Add/Edit"
+            ></activity>
+        <activity 
+            android:name="com.mvm.exapp.activities.ViewGroupActivity"
+            android:label="View Group"
+            ></activity>
+        <activity 
+            android:name="com.mvm.exapp.activities.ViewItemActivity"
+            android:label="View Item"
+            ></activity>
+        <activity 
+            android:name="com.mvm.exapp.activities.RegisterActivity"
+            android:label="Register"
+            ></activity>
+          <activity 
+            android:name="com.mvm.exapp.activities.AddEditGroupActivity"
+            android:label="Add/Edit Group"
+            ></activity>
+          <activity 
+            android:name="com.mvm.exapp.activities.AddEditAppointmentActivity"
+            android:label="Add/Edit Appointment"
+            ></activity>
+           <activity 
+            android:name="com.mvm.exapp.activities.ProfileActivity"
+            android:label="Profile"
+            ></activity>
+           <activity 
+            android:name="com.mvm.exapp.activities.StatisticsActivity"
+            android:label="Statistics"
+            ></activity>
+           <activity 
+            android:name="com.mvm.exapp.activities.SearchGroupsActivity"
+            android:label="Group Search"
+            ></activity>
+           <activity 
+            android:name="com.mvm.exapp.activities.LoadingActivity"
+            android:label="Loading"
+            ></activity>
+           <activity 
+            android:name="com.mvm.exapp.activities.StatisticsGlobalActivity"
+            android:label="Global Statistics"
+            ></activity>
+    </application>
+
+</manifest>

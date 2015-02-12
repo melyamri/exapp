@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        
+        >
+
+        
+
+        <Button
+            android:id="@+id/btn_appointments"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@android:drawable/ic_menu_agenda"
+            android:text="Appointments" />
+        <Button
+            android:id="@+id/btn_discussions"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:drawableLeft="@android:drawable/ic_btn_speak_now"
+            android:layout_gravity="center"
+            android:text="Discussions"
+            android:layout_above="@id/btn_appointments"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btn_docs"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@android:drawable/ic_menu_save"
+            android:text="Documents"
+            android:layout_below="@id/btn_appointments"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
+

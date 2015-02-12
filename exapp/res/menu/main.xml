@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_statistics"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Statistics"/>
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="Search Groups"/>
+
+</menu>
